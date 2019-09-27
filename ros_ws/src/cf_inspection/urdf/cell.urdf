@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<robot name="cell">
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin rpy="1.57 0 0" xyz="-0.75 0.75 0.01"/>
+      <geometry>
+        <mesh filename="package://cf_inspection/meshes/cell.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <link name="tube">
+    <visual>
+      <origin rpy="1.57 0 0" xyz="-0.75 0.75 0.01"/>
+      <geometry>
+        <mesh filename="package://cf_inspection/meshes/tube.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_leg" type="fixed">
+    <parent link="base_link"/>
+    <child link="tube"/>
+  </joint>
+
+</robot>
+

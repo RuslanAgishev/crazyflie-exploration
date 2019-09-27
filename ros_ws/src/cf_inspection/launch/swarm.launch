@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find cf_inspection)/launch/map.launch"/>
+
+    <node name="swarm_trajectory" pkg="cf_inspection" type="swarm_low_level_test.py" output="screen" />
+
+    <!-- data visualization -->
+    <!-- <node pkg="rqt_plot" type="rqt_plot" name="rqt_plot1" args="/cf02_pose/pose/position/x:y:z"/> -->
+    <!-- <node pkg="rqt_plot" type="rqt_plot" name="rqt_plot2" args="/cf02_Vbattery/data"/> -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find cf_inspection)/launch/map_configs.rviz" required="true" />
+</launch>

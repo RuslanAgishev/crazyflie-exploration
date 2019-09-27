@@ -1,0 +1,7 @@
+rosbagTimestamp,header,seq,stamp,secs,nsecs,frame_id,level,name,msg,file,function,line,topics
+1565339800730158305,,4,,1565339800,695493836,'',2,"""/record_1565339800673112069""","""Subscribing to /rosout""","""/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp""","""shared_ptr<ros",212,[/rosout]
+1565339800730179079,,5,,1565339800,699317343,'',2,"""/record_1565339800673112069""","""Subscribing to /rosout_agg""","""/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp""","""shared_ptr<ros",212,[/rosout]
+1565339800730185843,,6,,1565339800,705808502,'',2,"""/record_1565339800673112069""","""Subscribing to /clicked_point""","""/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp""","""shared_ptr<ros",212,[/rosout]
+1565339800730201345,,7,,1565339800,718854928,'',2,"""/record_1565339800673112069""","""Subscribing to /initialpose""","""/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp""","""shared_ptr<ros",212,[/rosout]
+1565339800730214053,,8,,1565339800,723431196,'',2,"""/record_1565339800673112069""","""Subscribing to /cf_path""","""/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp""","""shared_ptr<ros",212,[/rosout]
+1565339800929507440,,0,,1565337913,805094192,'',2,"""/rviz""","""Stereo is NOT SUPPORTED""","""/tmp/binarydeb/ros-kinetic-rviz-1.12.17/src/rviz/ogre_helpers/render_system.cpp""","""RenderWindow* rviz",441,[/rosout]
