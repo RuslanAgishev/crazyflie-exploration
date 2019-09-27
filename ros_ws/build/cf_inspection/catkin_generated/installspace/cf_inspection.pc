@@ -1,8 +1,8 @@
-prefix=/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/install
+prefix=/home/rus/Neolant/src/HSS-Uley/ros_ws/install
 
 Name: cf_inspection
 Description: Description of cf_inspection
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/install/lib 
+Libs: -L/home/rus/Neolant/src/HSS-Uley/ros_ws/install/lib 
 Requires: 

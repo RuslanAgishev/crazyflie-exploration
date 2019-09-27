@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/gmock
-# Build directory: /home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/build/gtest
+# Build directory: /home/rus/Neolant/src/HSS-Uley/ros_ws/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

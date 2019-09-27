@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gmock")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rus/Neolant/src/HSS-Uley/ros_ws/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

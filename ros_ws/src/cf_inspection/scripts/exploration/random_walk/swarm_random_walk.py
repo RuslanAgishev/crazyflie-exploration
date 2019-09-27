@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Random walk algorithm implementation for a swarm of drones (tested on Crazyflie 2.1)
 equipped with 4 ranger sensors (front, back, left and right)

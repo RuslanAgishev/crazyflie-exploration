@@ -1,8 +1,8 @@
-# Install script for directory: /home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/src/cf_inspection
+# Install script for directory: /home/rus/Neolant/src/HSS-Uley/ros_ws/src/cf_inspection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/rus/Neolant/src/HSS-Uley/ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspection.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rus/Neolant/src/HSS-Uley/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspection.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cf_inspection/cmake" TYPE FILE FILES
-    "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspectionConfig.cmake"
-    "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspectionConfig-version.cmake"
+    "/home/rus/Neolant/src/HSS-Uley/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspectionConfig.cmake"
+    "/home/rus/Neolant/src/HSS-Uley/ros_ws/build/cf_inspection/catkin_generated/installspace/cf_inspectionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cf_inspection" TYPE FILE FILES "/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/src/cf_inspection/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cf_inspection" TYPE FILE FILES "/home/rus/Neolant/src/HSS-Uley/ros_ws/src/cf_inspection/package.xml")
 endif()
 

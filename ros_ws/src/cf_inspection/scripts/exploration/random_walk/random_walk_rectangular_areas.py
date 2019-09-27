@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Random walk algorithm implementation for a mobile robot
 equipped with 4 ranger sensors (front, back, left and right)

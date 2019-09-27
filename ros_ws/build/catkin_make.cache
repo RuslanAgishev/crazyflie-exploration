@@ -1,2 +1,2 @@
 cf_inspection
--DCATKIN_DEVEL_PREFIX=/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rus/bitcraze/crazyflie-lib-python/scripts/crazyflie_lighthouse/ros_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/rus/Neolant/src/HSS-Uley/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rus/Neolant/src/HSS-Uley/ros_ws/install -G Unix Makefiles
