@@ -19,11 +19,16 @@ Launch simulated environment. The following command brings up ROS master and sta
 ```bash
 roslaunch cf_inspection multiranger_map.launch
 ```
-or if you want to add simulated objects to the environment execute:
+or, if you want to add simulated objects to the environment, execute:
 ```bash
 roslaunch cf_inspection map.launch
 ```
+<img src="https://github.com/Neolant-Uley/HSS-Uley/blob/master/figures/map.png" width="400"/>
+
 And then execute one of the flight scripts, for example:
 ```bash
 rosrun cf_inspection random_walk.py
 ```
+
+#### Flight scripts description
+The scripts are located in [here](https://github.com/Neolant-Uley/HSS-Uley/tree/master/ros_ws/src/cf_inspection/scripts) and distributed inside folders depending on their functions.
