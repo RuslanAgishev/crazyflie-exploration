@@ -1,4 +1,4 @@
-# HSS-Uley
+# Crazyflie-Uley
 Swarm of drones flight scripts based on [crazyflie-lib-python](https://github.com/bitcraze/crazyflie-lib-python).
 
 ## Pre-flight setup
