@@ -342,7 +342,7 @@ class Params:
 		self.numiters = 100
 		self.vel = 0.2 # [m/s]
 		self.uris = [
-					# 'radio://0/80/2M/E7E7E7E701',
+					'radio://0/80/2M/E7E7E7E701',
 					'radio://0/80/2M/E7E7E7E702',
 					'radio://0/80/2M/E7E7E7E703',
 					]

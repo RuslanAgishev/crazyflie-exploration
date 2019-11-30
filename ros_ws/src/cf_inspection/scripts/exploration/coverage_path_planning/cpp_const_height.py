@@ -293,7 +293,9 @@ def flight_mission(drone, goal_x, goal_y, params, collision_avoidance=True):
             except:
                 pass
 
-        if params.animate or params.toFly:
+        if params.toFly:
+            time.sleep(0.1)
+        elif params.animate:
             plt.cla()
             gridmap.draw_map(obstacles)
             plt.plot(goal_x, goal_y)
@@ -378,7 +380,7 @@ class Params:
         self.uri = 'radio://0/80/2M/E7E7E7E703'
         self.flight_height = 0.4 # [m]
         self.toFly = 1
-        self.check_battery = 1
+        self.check_battery = 0
         self.animate = 1
         self.dt = 0.1
         self.goal_tol = 0.3
