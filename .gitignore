@@ -1,3 +1,4 @@
+# cache files
 cache
 .ipynb_checkpoints
 __pycache__
@@ -5,4 +6,6 @@ __pycache__
 build
 devel
 
+# large files
 rosbags
+data
