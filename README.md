@@ -29,6 +29,7 @@ source devel/setup.bash
 Note, that you need to do this only ones after you cloned the repository.
 
 In general, you need to execute two commands, one to initialize a visualization environment and another to launch the drones.
+
 Launch simulated environment. The following command brings up ROS master and starts helper visualization tools:
 ```bash
 roslaunch cf_inspection multiranger_map.launch
