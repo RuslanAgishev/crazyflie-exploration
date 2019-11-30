@@ -168,4 +168,4 @@ The scripts are located [here](https://github.com/Neolant-Uley/HSS-Uley/tree/mas
     rosrun cf_inspection cpp_const_height.py
     ```
     
-    For more examples feel free to take a look at [motion-planning](https://github.com/RuslanAgishev/motion_planning) repository.
+    For more examples feel free to take a look at [motion-planning](https://github.com/RuslanAgishev/motion_planning) repository or [adaptive-swarm](https://github.com/RuslanAgishev/adaptive_swarm).
