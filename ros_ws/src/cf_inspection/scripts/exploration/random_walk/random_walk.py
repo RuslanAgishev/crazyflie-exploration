@@ -13,8 +13,7 @@ robot changes its flight direction, turning on a random angle. Note,
 that wall and obstacle detection algorithms are different and implemented as
 separate blocks.
 
-author: Ruslan Agishev (agishev_ruslan@mail.ru)
-reference: https://ieeexplore.ieee.org/abstract/document/6850799/s
+reference: https://ieeexplore.ieee.org/abstract/document/6850799/
 """
 
 import matplotlib.pyplot as plt
@@ -243,7 +242,7 @@ class Params:
 		self.vel = 0.5 # [m/s]
 		self.uri = 'radio://0/80/2M/E7E7E7E702'
 		self.flight_height = 0.2 # [m]
-		self.toFly = 0
+		self.toFly = 1
 		self.check_battery = 1
 
 
@@ -319,7 +318,8 @@ def main():
 
 		if params.toFly:
 			fly(drone)
-
+			time.sleep(0.1)
+		else:
 			plt.cla()
 			gridmap.draw_map()
 			visualize(traj, pose, gridmap)

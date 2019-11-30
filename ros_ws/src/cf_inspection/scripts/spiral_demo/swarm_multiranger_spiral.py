@@ -3,10 +3,6 @@
 # -*- coding: utf-8 -*-
 
 """
-Simple example that connects to one crazyflie (check the address at the top
-and update it to your crazyflie address) and send a sequence of setpoints,
-one every 5 seconds.
-
 This example is intended to work with the Loco Positioning System in TWR TOA
 mode. It aims at documenting how to set the Crazyflie in position control mode
 and how to send setpoints.
@@ -25,7 +21,7 @@ import rospy
 from tf.transformations import quaternion_from_euler
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Path
-from multiranger import DroneMultiranger
+from drone_multiranger import DroneMultiranger
 from threading import Thread
 
 

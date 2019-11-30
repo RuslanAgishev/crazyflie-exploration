@@ -3,10 +3,6 @@
 # -*- coding: utf-8 -*-
 
 """
-Simple example that connects to one crazyflie (check the address at the top
-and update it to your crazyflie address) and send a sequence of setpoints,
-one every 5 seconds.
-
 This example is intended to work with the Loco Positioning System in TWR TOA
 mode. It aims at documenting how to set the Crazyflie in position control mode
 and how to send setpoints.
@@ -256,22 +252,22 @@ if __name__ == '__main__':
     rospy.init_node('drone_multiranger')
 
     drone1 = DroneMultiranger(URI1)
-    # drone2 = DroneMultiranger(URI2)
-    # drone3 = DroneMultiranger(URI3)
+    drone2 = DroneMultiranger(URI2)
+    drone3 = DroneMultiranger(URI3)
     time.sleep(4)
     
     drone1.pose_home = drone1.position
-    # drone2.pose_home = drone2.position
-    # drone3.pose_home = drone3.position
+    drone2.pose_home = drone2.position
+    drone3.pose_home = drone3.position
 
     # print('Home positions:', drone1.pose_home, drone2.pose_home, drone3.pose_home)
 
     if TO_FLY:
         th1 = Thread(target=prepare, args=(drone1.scf,) )
-        # th2 = Thread(target=prepare, args=(drone2.scf,) )
-        # th3 = Thread(target=prepare, args=(drone3.scf,) )
-        th1.start(); #th2.start(); #th3.start()
-        th1.join(); #th2.join(); #th3.join()
+        th2 = Thread(target=prepare, args=(drone2.scf,) )
+        th3 = Thread(target=prepare, args=(drone3.scf,) )
+        th1.start(); th2.start(); th3.start()
+        th1.join(); th2.join(); th3.join()
 
     print("Press F to fly...")
     while True:
@@ -280,8 +276,8 @@ if __name__ == '__main__':
             break
 
     th1 = Thread(target=circle_trajectory, args=(drone1, np.pi/2,) )
-    # th2 = Thread(target=circle_trajectory, args=(drone2, 3*np.pi/2,) )
-    # th3 = Thread(target=circle_trajectory, args=(drone3, 5*np.pi/3,) )
-    th1.start(); #th2.start(); #th3.start()
-    th1.join(); #th2.join(); #th3.join()
+    th2 = Thread(target=circle_trajectory, args=(drone2, 3*np.pi/2,) )
+    th3 = Thread(target=circle_trajectory, args=(drone3, 5*np.pi/3,) )
+    th1.start(); th2.start(); th3.start()
+    th1.join(); th2.join(); th3.join()
 

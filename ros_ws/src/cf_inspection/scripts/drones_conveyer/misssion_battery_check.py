@@ -3,9 +3,12 @@
 # -*- coding: utf-8 -*-
 
 """
-Simple example that connects to one crazyflie (check the address at the top
-and update it to your crazyflie address) and send a sequence of setpoints,
-one every 5 seconds.
+Simple example that connects to a crazyflie(check the URI address
+and update it to your crazyflie address) you use and send a flight mission
+to the drone. The battery charge is monitored during the flight. Ones the drone
+is discharged it will return home. This script intends to work with a wireless
+charging platform for the drone. Ones the drone is charged at its home position,
+it will continue the flight mission.
 
 This example is intended to work with the Loco Positioning System in TWR TOA
 mode. It aims at documenting how to set the Crazyflie in position control mode
